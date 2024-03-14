@@ -1,0 +1,78 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-style:Tahoma;
+  background-color:blanchedalmond
+}
+
+.title {
+  margin: 20px;
+  font-size: 2.5em; 
+  color: #343a40; 
+  font-style:Tahoma;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #7da314;
+  font-size: 1.2em; 
+  font-style: tahoma;
+}
+
+.nav-bar a:hover {
+  color: #25693a;
+}
+.student-list {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  font-style: Tahoma;
+}
+
+.card {
+  margin-top: 25px;
+  max-width:  250px; 
+  max-height:350px; 
+  padding: 20px;
+  border: 5px solid #ccc; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  text-align: center;
+  font-style: Tahoma;
+}
+
+.card img {
+  width: auto;
+  max-height: 70%; 
+  border-radius: 5%; 
+  margin-bottom: 20px; 
+  font-style: Tahoma;
+}
+
+.card:last-child {
+  margin-right: auto;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f0f0f0; 
+  padding: 2px; 
+  text-align: center; 
+  font-size: 18px; 
+  font-style: Tahoma;
+}
+
